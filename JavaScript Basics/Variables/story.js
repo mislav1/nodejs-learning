@@ -1,0 +1,11 @@
+var adjective = prompt( "Type in the adjective" );
+var verb = prompt( "Type in a verb" );
+var noun = prompt( "Type in a noun" );
+alert('All done. Ready for the message?');
+var solution = "<h2>There once was a ";
+solution += adjective;
+solution +=  " programmer who wanted to use JavaScript to ";
+solution += verb;
+solution += " the ";
+solution += noun + "</h2>";
+document.write(solution);
